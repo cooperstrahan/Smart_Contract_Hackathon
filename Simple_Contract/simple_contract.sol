@@ -1,8 +1,10 @@
 pragma solidity >=0.6.6;
 
-contract CoolNumberContract {
-    //Create public uint coolNumber
+contract SimpleContract {
+    //Create uint number
     
-    //Write simple setter function setCoolNumber()
+    //Write simple getter function getNumber()
+
+    //Write simple setter function setNumber()
     
 }

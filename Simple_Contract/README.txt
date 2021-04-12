@@ -37,3 +37,6 @@ npm install web3
 
 run file with command:
 python3 -m http.server
+
+
+project taken from https://livecodestream.dev/post/interacting-with-smart-contracts-from-web-apps/
