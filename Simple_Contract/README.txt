@@ -35,3 +35,5 @@ npm install web3
 - Copy ABI into the index.html file
 - Copy "To" Address of deployed contract into the index.html file
 
+run file with command:
+python3 -m http.server
