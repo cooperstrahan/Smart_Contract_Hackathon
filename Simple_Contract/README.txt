@@ -30,6 +30,8 @@ Change environment to be injected Web3
 
 Go to Where this project has been downloaded
 Open terminal window
+sudo apt install nodejs
+sudo apt install npm
 npm install web3
 
 - Copy ABI into the index.html file
