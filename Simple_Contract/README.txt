@@ -28,7 +28,10 @@ Change environment to be injected Web3
 - Deploy Contract again
 
 
+Go to Where this project has been downloaded
 Open terminal window
 npm install web3
 
-- Copy ABI into the 
+- Copy ABI into the index.html file
+- Copy "To" Address of deployed contract into the index.html file
+
