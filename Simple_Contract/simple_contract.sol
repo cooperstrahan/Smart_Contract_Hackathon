@@ -1,9 +1,8 @@
 pragma solidity >=0.6.6;
 
 contract CoolNumberContract {
-    uint public coolNumber = 10;
+    //Create public uint coolNumber
     
-    function setCoolNumber(uint _coolNumber) public {
-        coolNumber = _coolNumber;
-    }
+    //Write simple setter function setCoolNumber()
+    
 }
