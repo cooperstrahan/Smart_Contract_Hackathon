@@ -55,6 +55,10 @@ migrations > 2_deploy_contract.js
 Write the function to connect 
 js > app.js > initWeb3: function()
 
+In order to deploy your application to Ganache
+truffle migrate  or truffle migrate --reset
+
+npm run dev
 
 Source Of Application:
 https://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial
