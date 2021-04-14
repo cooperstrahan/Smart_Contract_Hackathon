@@ -29,8 +29,36 @@
 
         async function loadContract() {
             return await new window.web3.eth.Contract([
-                // Paste ABI here
+                // Paste ABI here       
+                {
+                    "inputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "_coolNumber",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "setCoolNumber",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                },
+                {
+                    "inputs": [],
+                    "name": "coolNumber",
+                    "outputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ],
+                    "stateMutability": "view",
+                    "type": "function"
+                }
+            
             ],// Paste "To" Address here inside ''
+            '0xe7d39d0d28857ecfceaba73bd596857da597adb6'
             );
         }
 
