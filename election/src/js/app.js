@@ -14,11 +14,11 @@ App = {
       // If a web3 instance is already provided by Meta Mask.
 
       // Assign the App's web3 provider with a window.ethereum
-      App.web3Provider = window.ethereum
+
       // Create a new window.web3 by passing window.ethereum to a Web3 Constructor
-      window.web3 = new Web3(window.ethereum);
+
       // Enable window.ethereum with the enable() function
-      window.ethereum.enable();
+
     } else {
       // Specify default instance if no web3 instance provided
       App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');

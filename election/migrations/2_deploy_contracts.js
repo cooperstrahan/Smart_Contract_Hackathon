@@ -2,10 +2,6 @@
 
 // create variable election by using artifacts require the 
 // Election solidity contract
-var Election = artifacts.require("./Election.sol");
 
 // with module exports function deploy the Election contract
 
-module.exports = function(deployer) {
-    deployer.deploy(Election);
-};
